@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="TopHeader">
         <div class="headerBar">
             <a href="#" class="mainLogo"><img src="Fil rouge - Intégration-assets\BETSCAPE.png" alt="Logo Betscape"></a>
             <nav>
@@ -29,19 +29,19 @@
         <a href="#AncreArrow" class="arrow"></a>
     </header>
     <main>
-        <article id="AncreArrow">
+        <article class="ExplicationPari" id="AncreArrow">
             <div class="contentContainer">
                 <h2>Un pari, un gage et c'est parti !</h2>
                 <hr>
-                <p>Séries, divertissement, sports... Choissisez parmi nos nombreuses thématiques pour lancer des défis entre vous ! Vous demarrez avec 100 points à répartir stratégiquement sur les différents sondages. Le lendemain, découvrez vos résultats !</p>
+                <p>Séries, divertissement, sports... Choisissez parmi nos nombreuses thématiques pour lancer des défis entre vous ! Vous démarrez avec 100 points à répartir stratégiquement sur les différents sondages. Le lendemain, découvrez vos résultats !</p>
                 <div class="sectionContainer">
                     <section>
                         <h3>1. Suivez vos # préférés<span class="circle"></span></h3>
-                        <p>Dans la liste des nombreuses thématiques, suivez celles qui vous intérresse. Les sondages à venir sur ces thèmes seront ainsi mis en avant sur votre interface.</p>
+                        <p>Dans la liste des nombreuses thématiques, suivez celles qui vous intéresse. Les sondages à venir sur ces thèmes seront ainsi mis en avant sur votre interface.</p>
                     </section>
                     <section>
                         <h3>2. Lancer un sondage<span class="circle"></span></h3>
-                        <p>Si un sondage vous intérresse, defiez votre groupe d’amis ! Partager le sondage sur les réseaux pour être rejoins, ou créér un lien d’invation privé. Quand tout le monde est là, il est temps de parier et de placer ses mises sur les questions !</p>
+                        <p>Si un sondage vous intéresse, défiez votre groupe d’amis ! Partagez le sondage sur les réseaux pour être rejoint, ou créér un lien d’invitation privé. Quand tout le monde est là, il est temps de parier et de placer ses mises sur les questions !</p>
                     </section>
                     <section>
                         <h3>3. En présentiel ou à distance #covid<span class="circle"></span></h3>
@@ -56,17 +56,17 @@
             </div>
             <aside>Ce n’est pas UX-friendly de faire un step by step qui part vers le bas pour le 2.<br/>Il vaut mieux faire de gauche à droite puis de haut en bas.<br/>Mais c’est + challengeant sur l’intégration ;) Tout comme ce texte que vous devez aussi ajouter.</aside>
         </article>
-        <article>
+        <article class="Paris">
             <div class="contentContainer">
                 <h2>Découvrez les paris à venir !</h2>
                 <hr>
                 <div class="sectionContainer">
-                    <article>
+                    <section>
                         <img src="Fil rouge - Intégration-assets\logo-top-chef.png" alt="Logo Top Chef">
                         <div class="contentContainer">
-                            <header class="tags">
-                                <p>TV</p>
-                                <p>Divertissement</p>
+                            <header>
+                                <p class="tags">TV</p>
+                                <p class="tags">Divertissement</p>
                             </header>
                             <h3>Objectif Top Chef</h3>
                             <p>Finale de la semaine</p>
@@ -78,13 +78,13 @@
                                 <p>Ces groupes y participent</p>
                             </div>
                         </div>
-                    </article>
-                    <article>
+                    </section>
+                    <section>
                         <img src="Fil rouge - Intégration-assets\logo-koh-lanta.png" alt="Logo Koh Lanta">
                         <div class="contentContainer">
-                            <header class="tags">
-                                <p>TV</p>
-                                <p>Divertissement</p>
+                            <header>
+                                <p class="tags">TV</p>
+                                <p class="tags">Divertissement</p>
                             </header>
                             <h3>Koh-Lanta les 4 terres</h3>
                             <p>Episode 8</p>
@@ -95,13 +95,13 @@
                                 <p>Ce groupe y participe</p>
                             </div>
                         </div>
-                    </article>
-                    <article>
+                    </section>
+                    <section>
                         <img src="Fil rouge - Intégration-assets\logo-koh-lanta.png" alt="Logo Koh Lanta">
                         <div class="contentContainer">
-                            <header class="tags">
-                                <p>TV</p>
-                                <p>Divertissement</p>
+                            <header>
+                                <p class="tags">TV</p>
+                                <p class="tags">Divertissement</p>
                             </header>
                             <h3>Koh-Lanta</h3>
                             <p>Les memes</p>
@@ -112,31 +112,38 @@
                                 <p>Ce groupe y participe</p>
                             </div>
                         </div>
-                    </article>
+                    </section>
+                </div>
+                <div class="dots">
+                    <div class="sliderDot activeDot"></div>
+                    <div class="sliderDot"></div>
+                    <div class="sliderDot"></div>
                 </div>
             </div>
         </article>
-        <article>
+        <article class="ParisPersos">
             <div class="contentContainer">
                 <h2>Envie de créer des paris personnalisés ?</h2>
                 <hr>
-                <section>
-                    <h3>Personnalisez vos paris !<span class="new">Nouveau !</span></h3>
-                    <p>Grande nouveauté de cette version, nous proposons à tous de créer des paris personnalisés. Voici les fonctionnalités ajoutées.<br /><span class="small">*pour profiter de ces nouveautés, votre inscription au site est nécessaire</span></p>
-                </section>
-                <section>
-                    <ol>
-                        <li>Création d’un pari à partir de toutes les questions déjà existantes</li>
-                        <li>Création de questions personnalisées, qui seront partagées dans la bibliothèque commune</li>
-                        <li>Création de questions personnalisées, qui seront partagées dans la bibliothèque commune</li>
-                        <li>Soumettez votre pari à Betscape pour le faire vérifier et le faire apparaitre dans les paris du jour !</li>
-                    </ol>
-                </section>
+                <div class="sectionContainer">
+                    <section>
+                        <h3>Personnalisez vos paris !<span class="new">Nouveau !</span></h3>
+                        <p>Grande nouveauté de cette version, nous proposons  à tous de créer des paris personnalisés. Voici les fonctionnalités ajoutées.<br /><span class="small">*pour profiter de ces nouveautés, votre inscription au site est nécessaire</span></p>
+                    </section>
+                    <section>
+                        <ol>
+                            <li>Création d’un pari à partir de toutes les questions déjà existantes</li>
+                            <li>Création de questions personnalisées, qui seront partagées dans la bibliothèque commune</li>
+                            <li>Création de questions personnalisées, qui seront partagées dans la bibliothèque commune</li>
+                            <li>Soumettez votre pari à Betscape pour le faire vérifier et le faire apparaitre dans les paris du jour !</li>
+                        </ol>
+                    </section>
+                </div>
                 <a href="#" class="pinkButton">S'inscrire et profiter de toutes les fonctionnalités</a>
             </div>
         </article>
-        <article>
-            <div class="contentContaier">
+        <article class="Gamers">
+            <div class="contentContainer">
                 <p>Il faudrait être vraiment biaisé pour ne pas voir que la droite va de toute façon rendre accessible à tous la télé-réalité (surtout pour les plus téméraires) , je ne suis pas d'accord : les Provinciaux sont déjà bien amochés !!! Dans les Ardennes je n'ai jamais vu ça, ça fera comme en 2007 avec Balkany et sa clique qui nient dissimuler les preuves flagrantes . Bravo pour cette leçon de bêtise. </p>
                 <p>- Phrase émise par une personne ayant perdu un sondage secret story. Bon en vrai ça vient du site easytrolling, générateur de commentaires</p>
             </div>
@@ -162,9 +169,9 @@
                         <a href="#"><img src="Fil rouge - Intégration-assets\Pinterest.png" alt="Pinterest icone"></a>
                         <a href="#"><img src="Fil rouge - Intégration-assets\Tumblr.png" alt="Tumblr icone"></a>
                     </div>
-                    <hr>
-                    <p>Cette maquette a été réalisé par Alexis Sensei.<br/>Elles est une réponse à un défi de Nicola d'interpréter en temps limité ma vision du fil rouge.<br/>Certains éléments de la maquette ne sont pas UX ou UI friendly, mais servent à maîtriser l'exercice pédagogique de l'intégration de maquette.</p>
                 </div>
+                <hr>
+                <p>Cette maquette a été réalisé par Alexis Sensei.<br/>Elles est une réponse à un défi de Nicolas d'interpréter en temps limité ma vision du fil rouge.<br/>Certains éléments de la maquette ne sont pas UX ou UI friendly, mais servent à maîtriser l'exercice pédagogique de l'intégration de maquette.</p>
             </div>
         </footer>
     </main>
