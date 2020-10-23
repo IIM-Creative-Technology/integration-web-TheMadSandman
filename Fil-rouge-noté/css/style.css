@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --dark-pink: #bf3676;
+    --black: #222222;
+    --warm-grey: #747474;
+    --warm-grey-two: #929292;
+    --pinkish-grey: #bbbbbb;
+    --dark-blue-grey: #2f2359;
+    --blueberry: #4c3991;
+    --lavender: #d3c4f2;
+}
