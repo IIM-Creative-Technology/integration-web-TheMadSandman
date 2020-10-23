@@ -11,4 +11,115 @@
     --dark-blue-grey: #2f2359;
     --blueberry: #4c3991;
     --lavender: #d3c4f2;
+    --gradient-bottom: linear-gradient(180deg, var(--blueberry) 0%, var(--dark-blue-grey) 100%);
+    --gradient-angled: linear-gradient(290deg, var(--blueberry) 0%, var(--dark-blue-grey) 80%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---- HEADER ---- */
+header {
+    width: 100%;
+    height: 900px;
+    background: url(../Fil\ rouge\ -\ Intégration-assets/header.png) no-repeat right bottom 80px, var(--gradient-angled);
+    display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+}
+.headerBar {
+    width: 85%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: center;
+}
+
+/* Logo */
+.mainLogo {
+    padding: 5px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.mainLogo img {
+    height: 23px;
+    width: auto;
+}
+
+/* Nav */
+header nav {
+    height: 100%;
+    flex: 0 1 500px;
+    margin-right: 30px;
+}
+header ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    list-style: none;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding: 0 10px;
+}
+header nav a:hover {
+    border-bottom: solid 2px white;
+}
+
+/* Pink button */
+.pinkButton {
+    background-color: var(--dark-pink);
+    font-weight: 500;
+    color: white;
+    padding: 9px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+header .pinkButton {
+    font-size: 18px;
+}
+
+/* nav content */
+header .contentContainer {
+    width: 33%;
+    height: auto;
+    display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;
+    margin-left: 177px;
+    align-self: flex-start;
+}
+h1 {
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.25;
+    color: white;
+}
+.contentContainer p {
+    margin-top: 20px;
+}
+.contentContainer a {
+    margin-top: 35px;
+}
+
+.arrow {
+    height: 45px;
+    width: 36px;
+    display: block;
+    background-image: url(../Fil\ rouge\ -\ Intégration-assets/down-arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 35px;
 }
